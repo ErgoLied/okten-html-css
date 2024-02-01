@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animation</title>
+    <style>
+        .flex {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+        }
+
+        .main {
+            background-color: #beff89;
+            height: 300px;
+        }
+
+        .main>div {
+            width: 100px;
+            height: 100px;
+            background-color: #54a92a;
+            transition: 500ms;
+        }
+        .main>div:hover {
+            background-color: #ffd400;
+            border-radius: 50%;
+            transition: 1s;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="main flex">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+
+</body>
+</html>

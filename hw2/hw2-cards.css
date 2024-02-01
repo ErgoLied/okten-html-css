@@ -1,0 +1,65 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+.cards>div{
+    background-color: lightgray;
+    width: 40px;
+    height: 30px;
+    margin: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.flex{
+    display: flex;
+}
+
+.two:before{
+    content: "2";
+}
+.three:before{
+    content: "3";
+}
+.six:before{
+    content: "6";
+}
+.eight:before{
+    content: "8";
+}
+.nine:before{
+    content: "9";
+}
+.ten:before{
+    content: "10";
+}
+.jack:before{
+    content: "J";
+}
+.queen:before{
+    content: "Q";
+}
+.king:before{
+    content: "K";
+}
+.ace:before{
+    content: "A";
+}
+
+.clubs:after{
+    content: "♣️";
+}
+.diamonds:after{
+    content: "♦️";
+}
+.hearts:after{
+    content: "♥️";
+}
+.spades:after{
+    content: "♠️";
+}
+.diamonds, .hearts{
+    color: darkred;
+}

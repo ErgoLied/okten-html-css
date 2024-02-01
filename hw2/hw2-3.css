@@ -1,0 +1,40 @@
+body{
+    margin: 15px;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+}
+
+.fsz-50{
+    font-size: 50px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.center-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-color{
+    background-color: #1c83c7;
+}
+.secondary-color{
+    background-color: #19446e;
+}
+
+.h-300{
+    height: 300px;
+}
+.h-600{
+    height: 600px;
+}
+.w30proc{
+    width: 30%;
+}
+.margin-bott{
+    margin-bottom: 15px;
+}
