@@ -1,0 +1,61 @@
+body {
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+span {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 35px;
+    margin: 5px 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cards > div {
+    width: 30%;
+    height: 25%;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+button {
+    background-color: #000;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+}
+
+button > span {
+    border-bottom: 1px solid #fff;
+}
+
+.blue {
+    background-color: #699BF7;
+}
+
+.violet {
+    background-color: #C7B9FF;
+}
+
+.yellow {
+    background-color: #FFC700;
+}
+
+.coral {
+    background-color: #FF8577;
+}
