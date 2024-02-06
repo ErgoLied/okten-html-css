@@ -1,0 +1,66 @@
+/*----------------main settings-----------------------*/
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    font-family: Tahoma, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+}
+h1{
+    font-size: 80px;
+    font-weight: 400;
+}
+
+/*-----------------sections common----------------------*/
+section{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+section p{
+    width: 60vw;
+}
+
+
+/*----------------buttons go up and down------------------*/
+.btn{
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAA0CAYAAADFeBvrAAADYklEQVRogc3aTU8TQRzH8W+hhT6AlhSIRDnwdJCSeCkJ4lUj3ImJvgwebnjRu3fjXWNCAiY+HXkDaFU4SGIi2FIh0i4g24ZW4qEdaNl2292dWfpLmqbd7M58utt9mPl7BueXcCktwKkbjbiRx8BrwKe6Ia/qBihinpR9fgTkVTWmGnQRM1N6fwgUVDSo8pBbpITp8PvoCwfE9zPAKxT9mKpAi8BTKGJm74+yMD3G9a6gWK4MpQJkwPRHQnT4fcxNRZWjZIOqYj58TfJidZNQu3pUa9fkA1nbOsOE2r3MTUXpj4R4/yXJ8toWO5rO74MsE0O9xAYirCc1jnJ5gNHSaxkJ1ylZIFOMiBsoGaCGMCKqUU5BNTAJlte2a66kEuUEZAsjogplF+QII3KO6iE20M23hHOUHZAUjEgRlWNiqIdxCSirIKkYEZkoKyAlGBFZqEZBVTHv4glWPjnHiOxoOikty+1h+6hGQK5gRFJa1hGqHshVjIgTlBnoUjAiAjUx1MP4oAF1kxqoWqCqmLfxBG9cwIiktCypg6qoKDVQ1UBNgRGxiroIaiqMiBVUOagpMSIpLctOAygBamqMSCOoFsAD3BIrXQn4CAfbOD2FH3tHl9Nzk+xkdPSTAsE2L71X/OWLRoBOsYdWKApH/+YKrCc1YgMRJkd62do/Zu8wdwldN+ba1QDz01FC7T6er34nvp0Wi+LAXSAtQKeUoY5yedaTGuMD3dwZ6eVnE6CKmDE6SpjPWwbMPlSeFJoWdY7xmmLAeNpuOpQVDFS/sJqi3PxP9YWtYaD2rc+lo/rCAeamrGHA/ObUFLWdPmZXEcouBuo/PtRETQ6rQdk5zMrTyAOeayiBCbXZw0Djj+DKUZWYTVsYsDZIogxlxJz13RIGrA9jSUfJxIC9gUZpKNkYsD8UbIr6ldbZPcyabkAFBpwN1ttG9YUDLCjAgPPpFANqI6kRM0EJTFABBuRMeFWgDk1QdTD3cIgBeVOSpqhERqfF46mH+SOjIx7JxUs+4CWlipEbXUFmp6IE27xk8/8I+FqVYkD+tH6eYi3PEkAio/Ps4wb6ScEVDKgpTxEogBmB6u70XxwDkI4BdcVLBlQio4tlyjCgtnip4vArRSkG1JeXle+pYRRjwJ0CQIHqADKqG/sPAjt8VWk8CeAAAAAASUVORK5CYII=");
+    width: 52px;
+    height: 52px;
+    margin: 50px 0;
+}
+.btn-bott img{
+    transform: translateY(26px);
+}
+.btn-top img{
+    transform: rotate(180deg) translateY(-7px);
+}
+
+/*------------------sections bgi---------------------*/
+#teyvat{
+    background-image: url('https://genshin.hoyoverse.com/_nuxt/img/s1.5c125a1.png');
+    background-size: cover;
+    background-position: center;
+    text-shadow: 2px 6px 22px rgba(0,0,0,0.6);
+
+}
+#mondstadt{
+    background-image: url('https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200320/2020032014410864090.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#liyue{
+    background-image: url('https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200320/2020032014541768485.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#inazuma{
+    background-image: url('https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20210719/2021071920203256336.jpg');
+    background-size: cover;
+    background-position: center;
+}
