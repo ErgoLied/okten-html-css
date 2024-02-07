@@ -1,38 +1,137 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
-body{
+body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
 
-.side-padding{
-    padding: 0 135px;
+h1 {
+    color: #BDBDBD;
+    font-size: 64px;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+h1 span {
+    color: #333;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+h2{
+    color: #BDBDBD;
+    font-size: 64px;
+    font-weight: 300;
+    margin: 0 0 60px 0;
+}
+p{
+    margin: 0;
+}
+
+.side-padding {
+    padding: 0 9.5vw;
+}
+.top-padding{
+    padding-top: 180px;
+}
+
+.flex {
+    display: flex;
 }
 
 /*---------header------------*/
-header{
+header {
     height: 102px;
     background: #FAFAFA;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
-.logo{
+
+.logo {
     width: 68.552px;
     height: 41.527px;
     background-image: url('img/logo.svg');
+    background-repeat: no-repeat;
+    padding-left: 24vw;
 }
-nav{
-    display: flex;
+
+nav {
     gap: 55px;
     text-transform: uppercase;
     font-size: 12px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: #333;
 }
-nav a:hover{
+
+nav a:hover {
     color: #728f93;
     cursor: pointer;
+}
+
+/*-------------------main------------------*/
+
+.preview {
+    justify-content: space-between;
+    align-items: center;
+    height: calc(100vh - 102px);
+}
+
+.preview img {
+    height: 80vh;
+}
+
+/*---------------------------*/
+.about {
+    /*justify-content: space-between;*/
+    /*gap: 87px;*/
+    gap: 6vw;
+    justify-content: center;
+}
+
+.about img {
+    height: 33vh;
+}
+.about div{
+    width: 28vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.about div p{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/*---------------------------*/
+.focus-content{
+    color: #333;
+    font-size: 22px;
+    font-weight: 400;
+}
+.focus>div{
+    justify-content: space-between;
+}
+
+.number{
+    color: #F2F2F2;
+    font-size: 200px;
+    font-weight: 900;
+}
+
+/*---------------------------*/
+footer{
+    height: 32vh;
+    background: #2C2C2C;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+}
+.logo2{
+    width: 145px;
+    height: 94px;
+    background-image: url('img/logo2.svg');
+    background-repeat: no-repeat;
 }
