@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    color: white;
+}
+.flex, .flex-cde{
+    display: flex;
+}
+
+.A, .B, .C, .D, .E, .F{
+    background: #a1a1a1;
+    outline: 1px solid white;
+    outline-offset: -1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.A{
+    height: 30vh;
+}
+
+
+/*------TASK-1------------*/
+.hw6-1{
+    .B, .C{
+        height: 70vh;
+    }
+    .B{
+        width: 70vw;
+    }
+    .C{
+        width: 30vw;
+    }
+
+}
+
+/*------TASK-2------------*/
+.w100{
+    width: 100vw;
+}
+.hw6-2{
+    .B, .C, .D, .E{
+        height: 35vh;
+    }
+    .B{
+        width: 70vw;
+    }
+    .F{
+        width: 30vw;
+    }
+    .C, .D, .E{
+        width: 33.3%;
+    }
+}
